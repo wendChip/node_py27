@@ -7,4 +7,5 @@ Thus far, contains Dockerfile and .dockerignore.
      docker run nodeapp_py27 (current window, non-interactive)
      docker run -d nodeapp_py27 (detached, non-interactive)
      docker run -it nodeapp_py27 (interactive)
+     docker run -it nodeapp_py27 bash (really interactive!)
      ```
