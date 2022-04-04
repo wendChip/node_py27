@@ -30,4 +30,5 @@ EXPOSE 3000
 
 # This is where you'd run your app or simply do "bash"
 # CMD is more flexible than ENTRYPOINT, but feel free to use it
+# Yours would be more ["npm run"]?
 CMD ["node", "src/index.js"]
