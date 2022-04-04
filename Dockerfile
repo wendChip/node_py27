@@ -29,4 +29,5 @@ COPY . .
 EXPOSE 3000
 
 # This is where you'd run your app or simply do "bash"
+# CMD is more flexible than ENTRYPOINT, but feel free to use it
 CMD ["node", "src/index.js"]
